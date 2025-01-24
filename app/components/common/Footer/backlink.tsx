@@ -8,7 +8,7 @@ function FooterBacklink() {
   }> = [
     {
       title: "Courses",
-      slug: "courses",
+      slug: "/",
     },
     {
       title: "Find a Doctor",

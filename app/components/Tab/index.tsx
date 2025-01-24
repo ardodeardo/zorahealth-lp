@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 
 const tab: Array<{
   label: string;
@@ -27,7 +27,6 @@ const tab: Array<{
 ];
 
 function Tab() {
-  const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
 

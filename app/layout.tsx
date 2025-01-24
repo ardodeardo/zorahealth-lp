@@ -14,9 +14,6 @@ export const metadata: Metadata = {
   description: "ardodeardo - frontend",
 };
 
-import Header from "./components/common/Header";
-import Footer from "./components/common/Footer";
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -25,9 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${ppeditorial.variable} antialiased`}>
-        <Header></Header>
-        <main>{children}</main>
-        <Footer></Footer>
+        {children}
       </body>
     </html>
   );

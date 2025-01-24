@@ -8,12 +8,12 @@ import type { Course } from "@/app/interfaces/course";
 import { PATH } from "@/app/constants/config/path";
 
 function CardCourse(props: Course) {
-  const { uuid, slug, title, description, experts, view, thumbnail } = props;
+  const { slug, title, description, experts, view, thumbnail } = props;
 
   return (
     <Link
-      href={"/course/".concat(slug)}
-      className="block relative space-y-6 p-8 bg-[#FCFAF5] rounded-lg"
+      href={"/courses/".concat(slug)}
+      className="block relative space-y-6 p-8 bg-[#FCFAF5] rounded-lg hover:shadow-md transition-shadow duration-300"
     >
       <figure className="bg-[#ebebeb]">
         <Image
@@ -31,14 +31,16 @@ function CardCourse(props: Course) {
         {experts.length > 2 && (
           <p>
             Featuring experts from <br />
-            <span className="font-semibold">
+            <span className="text-sm font-semibold">
               {`${experts[0]}, ${experts[1]}, +${experts.length - 2} more`}
             </span>
-            {/* assuming of; 
-            - experts more than 2 items
-            - then only need only view the first 2 item, 
-            - amd show the rest in number
-            - no need to loop */}
+            {/* 
+              assuming of; 
+              - experts length always more than 2 items
+              - then only need only view the first 2 item, 
+              - and show the rest in number
+              - no need to loop
+            */}
           </p>
         )}
       </div>

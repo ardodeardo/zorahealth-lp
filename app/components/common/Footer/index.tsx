@@ -11,7 +11,7 @@ function Footer() {
     <footer id="c-footer" className="c-footer bg-[#F48265] pt-[72px] pb-6">
       <div className="container mx-auto">
         <div className="grid gap-y-[104px]">
-          <div className="w-full flex justify-between items-center">
+          <div className="w-full flex flex-col lg:flex-row lg:justify-between items-start lg:items-center">
             <Image
               alt="zorahealth"
               src={PATH.image.concat("footer/inflection.png")}
@@ -37,11 +37,11 @@ function Footer() {
             </div>
           </div>
 
-          <div className="grid grid-cols-12 gap-x-12">
-            <div className="col-span-8">
+          <div className="grid lg:grid-cols-12 gap-12">
+            <div className="lg:col-span-8">
               <FooterBacklink></FooterBacklink>
             </div>
-            <div className="col-span-4">
+            <div className="lg:col-span-4">
               <p className="text-sm text-white font-semibold">
                 Our content is for informational purposes only - it&apos;s not a
                 substitue for medical advice, dagnosis, or treatment

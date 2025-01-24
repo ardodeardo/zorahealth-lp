@@ -8,7 +8,7 @@ function HeaderMenu() {
   }> = [
     {
       title: "Courses",
-      slug: "courses",
+      slug: "/",
     },
     {
       title: "Find a Doctor",
@@ -26,7 +26,7 @@ function HeaderMenu() {
 
   return (
     <nav>
-      <ul className="flex gap-x-7">
+      <ul className="hidden lg:flex gap-x-7">
         {nav.map((item) => {
           const { title, slug } = item;
 
