@@ -8,7 +8,7 @@ function Header() {
   return (
     <header
       id="c-header"
-      className="c-header w-full sticky top-0 left-0 z-50 py-6 border-b border-[#F0EDE2]"
+      className="c-header w-full sticky top-0 left-0 z-50 py-6 bg-white border-b border-[#F0EDE2]"
     >
       <div className="container mx-auto">
         <div className="flex gap-x-9 w-full justify-end">
