@@ -1,3 +1,4 @@
+// sections
 import { HeroBase } from "@/app/components/Hero";
 import Courses from "@/app/components/section/courses";
 import Lessons from "@/app/components/section/lessons";

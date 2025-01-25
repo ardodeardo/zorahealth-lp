@@ -1,7 +1,13 @@
-import React from "react";
+// sections
+import { HeroCourse } from "@/app/components/Hero";
 
 function Page() {
-  return <div>course page</div>;
+  return (
+    <>
+      <HeroCourse></HeroCourse>
+      <div>later</div>
+    </>
+  );
 }
 
 export default Page;
