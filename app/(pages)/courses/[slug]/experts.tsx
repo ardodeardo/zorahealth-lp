@@ -15,7 +15,7 @@ function Experts() {
             Experts you&apos;ll learn from
           </p>
 
-          <div className="grid lg:grid-cols-2 gap-6">
+          <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
             {experts.map((expert) => {
               return <CardExpert key={expert.uuid} {...expert}></CardExpert>;
             })}

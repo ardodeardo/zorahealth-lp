@@ -44,13 +44,16 @@ function HeroCourse() {
 
           <div className="space-y-3">
             <Link href={"/"}>
-              <button className="bg-[#D75555] text-base px-6 py-4 rounded-lg font-medium text-white">
+              <button
+                type="button"
+                className="bg-[#D75555] text-base px-6 py-4 rounded-lg font-medium text-white"
+              >
                 Start Learning
               </button>
             </Link>
             <Link
               href={"/"}
-              className="font-medium text-xs flex gap-x-1 items-center"
+              className="font-medium text-xs flex gap-x-1 items-center hover:underline underline-offset-2"
             >
               Buy This Course <ChevronRight className="w-4 h-4"></ChevronRight>
             </Link>
