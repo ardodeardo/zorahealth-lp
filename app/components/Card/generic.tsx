@@ -17,7 +17,7 @@ const CardGeneric = <T extends "article" | "lesson">({
   return (
     <Link
       href={`${basepath}/${slug}`}
-      className="block space-y-4 p-6 bg-[#F6F1E2] rounded-lg hover:shadow-md transition-shadow duration-300"
+      className="c-card c-card--generic block space-y-4 p-6 bg-[#F6F1E2] rounded-lg hover:shadow-md transition-shadow duration-300"
     >
       <span className="text-xs font-semibold uppercase">
         {type === "article"

@@ -1,7 +1,9 @@
 import React from "react";
 
+// components
 import TopicList from "@/app/components/List";
 
+// dummy content
 import { topics } from "@/app/constants/content/topics";
 
 function Articles() {

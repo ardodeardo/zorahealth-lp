@@ -8,17 +8,17 @@ import type { Course } from "@/app/interfaces/course";
 import { PATH } from "@/app/constants/config/path";
 
 function CardCourse(props: Course) {
-  const { slug, title, description, experts, view, thumbnail } = props;
+  const { slug, title, description, experts, view } = props;
 
   return (
     <Link
       href={"/courses/".concat(slug)}
-      className="block relative space-y-6 p-8 bg-[#FCFAF5] rounded-lg hover:shadow-md transition-shadow duration-300"
+      className="c-card c-card--course block relative space-y-6 p-8 bg-[#FCFAF5] rounded-lg hover:shadow-md transition-shadow duration-300"
     >
       <figure className="bg-[#ebebeb]">
         <Image
-          alt={thumbnail.alt}
-          src={PATH.image.concat(thumbnail.url)}
+          alt={"zorahealth"}
+          src={PATH.image.concat("image.png")}
           width={320}
           height={84}
         ></Image>

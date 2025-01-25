@@ -1,11 +1,12 @@
 // sections
 import { HeroCourse } from "@/app/components/Hero";
+import Experts from "@/app/components/section/experts";
 
 function Page() {
   return (
     <>
       <HeroCourse></HeroCourse>
-      <div>later</div>
+      <Experts></Experts>
     </>
   );
 }

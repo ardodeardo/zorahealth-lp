@@ -15,7 +15,7 @@ function HeroCourse() {
       <Image
         priority
         alt="zorahealth"
-        src={PATH.image.concat("page/course/line.png")}
+        src={PATH.image.concat("page/course/hero/line.png")}
         width={1280}
         height={200}
         className="w-full h-auto"

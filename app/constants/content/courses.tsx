@@ -6,10 +6,6 @@ const courses: Array<Course> = [
     slug: "ivf-in-vitro-vertilization",
     title: "IVF - In Vitro Vertilization",
     category: "introductory",
-    thumbnail: {
-      alt: "zorahealth",
-      url: "image.png",
-    },
     description: (
       <>
         The most complex fertility treatment, this course will help you do it
@@ -30,10 +26,6 @@ const courses: Array<Course> = [
     slug: "fertility-101",
     title: "Fertility 101",
     category: "introductory",
-    thumbnail: {
-      alt: "zorahealth",
-      url: "image.png",
-    },
     description: (
       <>
         You took sex ed, but now you need to understand fertility. Data to
@@ -55,10 +47,6 @@ const courses: Array<Course> = [
     slug: "mental-health-and-fertility",
     title: "Mental Health & Fertility",
     category: "introductory",
-    thumbnail: {
-      alt: "zorahealth",
-      url: "image.png",
-    },
     description: (
       <>
         Breaking down every important topic realting to mental health &
@@ -82,10 +70,6 @@ const courses: Array<Course> = [
     slug: "pcos-polycystic-ovary-syndrome",
     title: "PCOS - Polycystic Ovary Syndrome",
     category: "introductory",
-    thumbnail: {
-      alt: "zorahealth",
-      url: "image.png",
-    },
     description: (
       <>
         A comprehensive overview of everything you need to know about polycystic

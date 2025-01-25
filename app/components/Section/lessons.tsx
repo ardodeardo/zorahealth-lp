@@ -1,7 +1,9 @@
 import React from "react";
 
+// components
 import { CardGeneric } from "@/app/components/Card";
 
+// dummy content
 import { lessons } from "@/app/constants/content/lessons";
 
 function Lessons() {
