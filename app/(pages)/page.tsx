@@ -2,6 +2,7 @@ import { HeroBase } from "@/app/components/Hero";
 import Courses from "@/app/components/section/courses";
 import Lessons from "@/app/components/section/lessons";
 import Articles from "@/app/components/section/articles";
+import Topics from "@/app/components/section/topics";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Courses></Courses>
         <Lessons></Lessons>
         <Articles></Articles>
+        <Topics></Topics>
       </div>
     </>
   );
