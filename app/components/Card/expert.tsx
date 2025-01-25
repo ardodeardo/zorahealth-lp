@@ -13,7 +13,7 @@ function CardExpert(props: Expert) {
       <figure className="bg-[#ebebeb] rounded-full">
         <Image
           alt={image.alt}
-          src={PATH.image.concat(`page/course/experts/${image.url}`)}
+          src={PATH.image.concat(`pages/course/experts/${image.url}`)}
           width={72}
           height={72}
           className="min-w-[72px] min-h-[72px] rounded-full"

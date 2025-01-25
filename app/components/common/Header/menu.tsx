@@ -33,7 +33,7 @@ function HeaderMenu() {
           return (
             <li key={slug}>
               <Link
-                href={slug}
+                href={"/"} // use the same path as dummy
                 className="text-sm font-semibold hover:underline underline-offset-2"
               >
                 {title}

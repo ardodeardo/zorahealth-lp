@@ -8,7 +8,7 @@ import { experts } from "@/app/constants/content/experts";
 
 function Experts() {
   return (
-    <section id="c-experts" className="c-experts pt-[84px] pb-12">
+    <section id="c-experts" className="c-experts py-12 mt-12">
       <div className="container mx-auto">
         <div className="pt-7 space-y-7">
           <p className="font-ppeditorial text-[32px]">
