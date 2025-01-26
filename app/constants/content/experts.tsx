@@ -4,7 +4,7 @@ const experts: Array<Expert> = [
   {
     uuid: "7524aff0-bfa2-47d6-adac-a40dba35ef0d",
     name: "Dr. Torie Comeaux Plowden",
-    roles: [<>Assistant Division Director wlater Reed Medical Center</>],
+    roles: [<>Assistant Division Director Walter Reed Medical Center</>],
     image: {
       url: "torie.png",
       alt: "Dr. Torie Comeaux Plowden",
@@ -33,7 +33,7 @@ const experts: Array<Expert> = [
     name: "Dr. Christian M. Becker",
     roles: [
       <>Co-Director, Oxford BSGE Endometriosis Centre</>,
-      <>Associate Professor, Oxford University United Kindgom</>,
+      <>Associate Professor, Oxford University United Kingdom</>,
     ],
     image: {
       url: "christian.png",
@@ -55,12 +55,35 @@ const experts: Array<Expert> = [
     roles: [
       <>
         Director, Mother & Child Hospital Scientific Director, Ferticity
-        Fertility Clinincs India
+        Fertility Clinics India
       </>,
     ],
     image: {
       url: "nalini.png",
       alt: "Dr. Nalini Kaul (Mahajan)",
+    },
+  },
+  {
+    uuid: "af6e1835-1e10-4315-a1be-b03bf5ef1c0e",
+    name: "Dr. Alice Domar",
+    roles: [<>Executive Director of the Domar Center for Mind/Body Health</>],
+    image: {
+      url: "alice.png",
+      alt: "Dr. Alice Domar",
+    },
+  },
+  {
+    uuid: "23d421e1-08c3-460a-8777-03a492acac9f",
+    name: "Dr. William Schoolcraft",
+    roles: [
+      <>
+        Founder and Medical Director of Colorado Center for Reproductive
+        Medicine (CCRM)
+      </>,
+    ],
+    image: {
+      url: "william.png",
+      alt: "Dr. William Schoolcraft",
     },
   },
 ];

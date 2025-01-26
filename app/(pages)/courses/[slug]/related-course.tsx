@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 // components
-import { Button } from "@/app/components/Button";
+import { Button } from "@/app/components/common/Button";
 import { CardCourse } from "@/app/components/Card";
 
 // thumbnails set

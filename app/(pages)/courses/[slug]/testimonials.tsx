@@ -20,12 +20,7 @@ import { PATH } from "@/app/constants/config/path";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function Testimonials() {
-  const options: EmblaOptionsType = {
-    // loop: true,
-    // breakpoints: {
-    //   "(min-width: 1024px)": { loop: true },
-    // },
-  };
+  const options: EmblaOptionsType = {};
 
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
 
@@ -95,7 +90,7 @@ function Testimonials() {
           <PrevButton
             onClick={onPrevButtonClick}
             disabled={prevBtnDisabled}
-            className="embla__arrow--prev bg-[#D75555] w-14 h-14 rounded-full grid place-content-center disabled:opacity-50"
+            className="embla__arrow--prev bg-[#D75555] hover:bg-[#C74545] transition-colors duration-300 w-14 h-14 rounded-full grid place-content-center disabled:opacity-50"
           >
             <ChevronLeft className="w-8 h-8 text-white"></ChevronLeft>
           </PrevButton>
@@ -103,7 +98,7 @@ function Testimonials() {
           <NextButton
             onClick={onNextButtonClick}
             disabled={nextBtnDisabled}
-            className="embla__arrow--next bg-[#D75555] w-14 h-14 rounded-full grid place-content-center disabled:opacity-50"
+            className="embla__arrow--next bg-[#D75555] hover:bg-[#C74545] w-14 h-14 rounded-full grid place-content-center disabled:opacity-50"
           >
             <ChevronRight className="w-8 h-8 text-white"></ChevronRight>
           </NextButton>

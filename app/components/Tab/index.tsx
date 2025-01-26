@@ -41,7 +41,7 @@ function Tab() {
           <li key={value} className="group">
             <Link
               href={pathname.concat(`?category=${value}`)}
-              className="block relative text-sm font-semibold py-7"
+              className="block relative text-xs lg:text-sm font-semibold py-5 lg:py-7  whitespace-nowrap"
             >
               {label}
               <span

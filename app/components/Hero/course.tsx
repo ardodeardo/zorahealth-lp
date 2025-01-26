@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 // components
-import { Button } from "@/app/components/Button";
+import { Button } from "@/app/components/common/Button";
 import { Presentation, Clock4, ChevronRight } from "lucide-react";
 
 // others
