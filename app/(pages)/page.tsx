@@ -1,7 +1,7 @@
 import { HeroBase } from "@/app/components/Hero";
-import Courses from "@/app/components/section/courses";
-import Lessons from "@/app/components/section/lessons";
-import Articles from "@/app/components/section/articles";
+import Lessons from "../components/Section/lessons";
+import Courses from "../components/Section/courses";
+import Articles from "../components/Section/articles";
 
 export default function Home() {
   return (
