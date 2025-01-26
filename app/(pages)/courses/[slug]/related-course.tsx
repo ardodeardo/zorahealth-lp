@@ -1,8 +1,11 @@
 import React from "react";
+import Link from "next/link";
 
-import { CardCourse } from "@/app/components/Card";
+// components
 import { Button } from "@/app/components/Button";
+import { CardCourse } from "@/app/components/Card";
 
+// dummy content
 import { courses } from "@/app/constants/content/courses";
 
 function RelatedCourse() {
@@ -22,7 +25,9 @@ function RelatedCourse() {
         </div>
 
         <div className="w-min mx-auto mt-12">
-          <Button type="button">Explore All Courses</Button>
+          <Link href={"/"}>
+            <Button type="button">Explore All Courses</Button>
+          </Link>
         </div>
       </div>
     </section>

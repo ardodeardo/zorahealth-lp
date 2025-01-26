@@ -53,7 +53,7 @@ function FooterBacklink() {
         return (
           <li key={slug}>
             <Link
-              href={slug}
+              href={"/"} // use the same path as dummy
               className="text-sm font-semibold underline underline-offset-2 text-white"
             >
               {title}

@@ -6,9 +6,19 @@ import Image from "next/image";
 import { Button } from "@/app/components/Button";
 import { Presentation, Clock4, ChevronRight } from "lucide-react";
 
+// others
 import { PATH } from "@/app/constants/config/path";
 
-function HeroCourse() {
+interface Props {
+  context: {
+    title: string;
+  };
+}
+
+function HeroCourse(props: Props) {
+  const { context } = props;
+  const { title } = context;
+
   return (
     <section
       id="c-hero--course"
@@ -34,14 +44,13 @@ function HeroCourse() {
               </span>
             </div>
             <h1 className="font-ppeditorial text-5xl lg:text-[84px] leading-[120%] lg:leading-[100%]">
-              {/* this might use dynamic value. save for later */}
-              IVF - In Vitro Fertilization
+              {title}
             </h1>
           </div>
 
           <p className="text-base">
             The most complex fertility treatment, this course will help you do
-            it right the first time
+            it right the first time.
           </p>
 
           <div className="space-y-3">

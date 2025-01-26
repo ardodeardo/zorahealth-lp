@@ -9,10 +9,33 @@ import Testimonials from "@/app/(pages)/courses/[slug]/testimonials";
 import Information from "@/app/(pages)/courses/[slug]/information";
 import RelatedCourse from "./related-course";
 
-function Page() {
+// dummy content
+import { courses } from "@/app/constants/content/courses";
+
+// populate slug
+export function generateStaticParams() {
+  return courses.map((course) => ({
+    slug: course.slug,
+  }));
+}
+
+type PageProps = {
+  params: Promise<{ slug: string }>;
+};
+
+async function Page({ params }: PageProps) {
+  const { slug } = await params;
+
+  // this could be fetch from the server. let's simulate by filtering from dummy data
+  const selectedCourse = courses.find((course) => course.slug === slug);
+
   return (
     <>
-      <HeroCourse></HeroCourse>
+      <HeroCourse
+        context={{
+          title: selectedCourse?.title || "IVF - In Vitro Fertilization",
+        }}
+      ></HeroCourse>
       <Experts></Experts>
       <section
         id="c-syllabus-testimonials"
