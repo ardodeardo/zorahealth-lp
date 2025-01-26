@@ -2,29 +2,38 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+// components
 import { Eye } from "lucide-react";
 import type { Course } from "@/app/interfaces/course";
 
+// others
 import { PATH } from "@/app/constants/config/path";
 
-function CardCourse(props: Course) {
-  const { slug, title, description, experts, view } = props;
+interface Props {
+  thumbnail: string;
+  content: Course;
+}
+
+function CardCourse(props: Props) {
+  const { thumbnail, content } = props;
+  const { slug, title, description, experts, view } = content;
 
   return (
     <Link
       href={"/courses/".concat(slug)}
-      className="c-card c-card--course block relative space-y-6 p-8 bg-[#FCFAF5] rounded-lg hover:shadow-md transition-shadow duration-300"
+      className="c-card c-card--course block relative bg-[#FCFAF5] rounded-lg hover:shadow-md transition-shadow duration-300"
     >
-      <figure className="bg-[#ebebeb]">
+      <figure className="pt-6">
         <Image
           alt={"zorahealth"}
-          src={PATH.image.concat("image.png")}
-          width={320}
-          height={84}
+          src={PATH.image.concat(`common/pattern/${thumbnail}`)}
+          width={384}
+          height={116}
+          className="h-[116px] w-auto"
         ></Image>
       </figure>
 
-      <div className="space-y-6 pb-9">
+      <div className="space-y-6 px-8 mb-[100px]">
         <h3 className="font-ppeditorial text-[40px]">{title}</h3>
         <p className="text-sm">{description}</p>
 

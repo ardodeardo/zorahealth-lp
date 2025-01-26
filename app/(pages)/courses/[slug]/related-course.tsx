@@ -8,7 +8,13 @@ import { CardCourse } from "@/app/components/Card";
 // dummy content
 import { courses } from "@/app/constants/content/courses";
 
+// thumbnails set
+import { setOfPattern } from "@/app/constants/thumbnail/pattern";
+
 function RelatedCourse() {
+  let counter = -1;
+  const patternLength = setOfPattern.length;
+
   return (
     <section id="c-related-courses" className="c-related-courses py-12">
       <div className="container mx-auto">
@@ -18,8 +24,21 @@ function RelatedCourse() {
           </h3>
 
           <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
-            {courses.map((course) => {
-              return <CardCourse key={course.uuid} {...course}></CardCourse>;
+            {courses.slice(1, 8).map((course, index) => {
+              // reset counter
+              if ((index + 1) % patternLength === 0) {
+                counter = -1;
+              }
+
+              counter++;
+
+              return (
+                <CardCourse
+                  key={course.uuid}
+                  thumbnail={setOfPattern[counter]}
+                  content={course}
+                ></CardCourse>
+              );
             })}
           </div>
         </div>
