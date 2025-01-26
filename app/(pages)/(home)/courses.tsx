@@ -5,13 +5,21 @@ import { Suspense } from "react";
 import Tab from "@/app/components/Tab";
 import { CardCourse } from "@/app/components/Card";
 
-// dummy content
-import { courses } from "@/app/constants/content/courses";
-
 // thumbnails set
 import { setOfPattern } from "@/app/constants/thumbnail/pattern";
 
-function Courses() {
+import type { Course } from "@/app/interfaces/course";
+
+interface Props {
+  context: {
+    courses: Array<Course>;
+  };
+}
+
+function Courses(props: Props) {
+  const { context } = props;
+  const { courses } = context;
+
   let counter = -1;
   const patternLength = setOfPattern.length;
 

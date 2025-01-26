@@ -29,6 +29,11 @@ async function Page({ params }: PageProps) {
   // this could be fetch from the server. let's simulate by filtering from dummy data
   const selectedCourse = courses.find((course) => course.slug === slug);
 
+  // simulate related course except current selected course
+  const relatedCourse = courses
+    .slice(0, 8)
+    .filter((course) => course.slug !== slug);
+
   return (
     <>
       <HeroCourse
@@ -57,7 +62,7 @@ async function Page({ params }: PageProps) {
         </div>
       </section>
       <Information></Information>
-      <RelatedCourse></RelatedCourse>
+      <RelatedCourse context={{ courses: relatedCourse }}></RelatedCourse>
     </>
   );
 }

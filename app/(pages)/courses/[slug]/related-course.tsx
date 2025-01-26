@@ -5,13 +5,21 @@ import Link from "next/link";
 import { Button } from "@/app/components/Button";
 import { CardCourse } from "@/app/components/Card";
 
-// dummy content
-import { courses } from "@/app/constants/content/courses";
-
 // thumbnails set
 import { setOfPattern } from "@/app/constants/thumbnail/pattern";
 
-function RelatedCourse() {
+import type { Course } from "@/app/interfaces/course";
+
+interface Props {
+  context: {
+    courses: Array<Course>;
+  };
+}
+
+function RelatedCourse(props: Props) {
+  const { context } = props;
+  const { courses } = context;
+
   let counter = -1;
   const patternLength = setOfPattern.length;
 
@@ -24,7 +32,7 @@ function RelatedCourse() {
           </h3>
 
           <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
-            {courses.slice(1, 8).map((course, index) => {
+            {courses.map((course, index) => {
               // reset counter
               if ((index + 1) % patternLength === 0) {
                 counter = -1;

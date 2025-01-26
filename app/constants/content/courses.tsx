@@ -25,7 +25,7 @@ const courses: Array<Course> = [
     uuid: "106cbc70-031d-4274-90f8-0e60acd93c19",
     slug: "fertility-101",
     title: "Fertility 101",
-    category: "introductory",
+    category: "advanced",
     description: (
       <>
         You took sex ed, but now you need to understand fertility. Data to
@@ -46,7 +46,7 @@ const courses: Array<Course> = [
     uuid: "6a7ab7a8-8d3f-4504-9c46-01017ca1ccec",
     slug: "mental-health-and-fertility",
     title: "Mental Health & Fertility",
-    category: "introductory",
+    category: "population_specific",
     description: (
       <>
         Breaking down every important topic realting to mental health &
@@ -92,7 +92,7 @@ const courses: Array<Course> = [
     uuid: "ef2517e5-a7ba-4eab-98c4-88ea95f8d3f2",
     slug: "lifestyle-choices-from-diet-to-supplements",
     title: "Lifestyle Choices, From Diet To Supplements",
-    category: "introductory",
+    category: "advanced",
     description: (
       <>
         All the data on lifestyle choices and their impact on fertility,
@@ -109,12 +109,11 @@ const courses: Array<Course> = [
     ],
     view: 86, // assume clean data in thousands
   },
-
   {
     uuid: "b309e46b-713e-469a-be8d-b1bedf47a4df",
     slug: "iui-or-artificial-insemination",
     title: 'IUI or "Artificial Insemination"',
-    category: "introductory",
+    category: "population_specific",
     description: (
       <>
         Data on IUI success rates depending on who you are, what it costs, the
@@ -130,7 +129,6 @@ const courses: Array<Course> = [
     ],
     view: 531, // assume clean data in thousands
   },
-
   {
     uuid: "f04dcd91-a125-4c72-9499-1079fdd5a029",
     slug: "miscarriage",
@@ -152,12 +150,11 @@ const courses: Array<Course> = [
     ],
     view: 30, // assume clean data in thousands
   },
-
   {
     uuid: "004ad9d1-2d48-450f-bf71-f00462d3d3b2",
     slug: "egg-freezing",
     title: "Egg Freezing",
-    category: "introductory",
+    category: "advanced",
     description: (
       <>
         Preparing you to be a confident self- advocate as you make decisions
@@ -173,12 +170,11 @@ const courses: Array<Course> = [
     ],
     view: 30, // assume clean data in thousands
   },
-
   {
     uuid: "9a083b06-311c-4e09-82a6-7ea829a08428",
     slug: "adoption",
     title: "Adoption",
-    category: "introductory",
+    category: "population_specific",
     description: (
       <>
         This course covers the crucial steps of domestic infant adoption,
@@ -191,7 +187,6 @@ const courses: Array<Course> = [
     experts: [],
     view: 0,
   },
-
   {
     uuid: "109d634e-ea74-4d12-a0b3-394ebe66774d",
     slug: "foster-parenting-101",
@@ -209,12 +204,11 @@ const courses: Array<Course> = [
     experts: [],
     view: 0,
   },
-
   {
     uuid: "e823952d-0792-4564-a52c-381cb8128856",
     slug: "workplace-guide-to-fertility-for-colleagues",
     title: "Workplace Guide to Fertility: For Colleagues",
-    category: "introductory",
+    category: "advanced",
     description: (
       <>
         This workplace guide is meant for colleagues to better understand what
@@ -233,12 +227,11 @@ const courses: Array<Course> = [
     ],
     view: 0,
   },
-
   {
     uuid: "4323f93c-4052-42cc-ae4f-1c34eee40a14",
     slug: "managing-fertility-treatment-and-work",
     title: "Managing Fertility Treatment & Work",
-    category: "introductory",
+    category: "population_specific",
     description: (
       <>
         We share ways to navigate & balance work and career with infertility or
@@ -257,7 +250,6 @@ const courses: Array<Course> = [
     ],
     view: 0,
   },
-
   {
     uuid: "b472fc1c-b60d-4926-a114-b288303f752c",
     slug: "managing-fertility-treatment-and-work",
@@ -281,12 +273,11 @@ const courses: Array<Course> = [
     ],
     view: 0,
   },
-
   {
     uuid: "25cf35b4-cc9b-405e-8d83-b98fc1f5247a",
     slug: "fertility-on-a-budget",
     title: "Fertility on a Budget",
-    category: "introductory",
+    category: "advanced",
     description: (
       <>
         We unpack the major expenses of fertility treatment, discuss how to
@@ -298,12 +289,11 @@ const courses: Array<Course> = [
     experts: ["NYU", "UCSF", "dummy_filler3", "dummy_filler4", "dummy_filler5"],
     view: 10,
   },
-
   {
     uuid: "c2774431-c45b-40b8-8b71-42b4bef13cfa",
     slug: "childless-by-circumstance",
     title: "Childless by Circumstance",
-    category: "introductory",
+    category: "population_specific",
     description: (
       <>
         This video course focuses on the experiences of those who desired to
@@ -316,7 +306,6 @@ const courses: Array<Course> = [
     experts: [],
     view: 0,
   },
-
   {
     uuid: "9ea965a4-356b-4e6a-91ab-be8621b75ffb",
     slug: "childless-by-circumstance-a-guide-for-friends-family-and-colleagues",
@@ -333,7 +322,6 @@ const courses: Array<Course> = [
     experts: [],
     view: 0,
   },
-
   {
     uuid: "2ea6effa-29e2-4d4f-99f6-74eda4bc3ab1",
     slug: "acupuncture",
@@ -349,12 +337,11 @@ const courses: Array<Course> = [
     experts: [],
     view: 41,
   },
-
   {
     uuid: "f94bf67e-a83d-47bf-abf8-90556a0d672e",
     slug: "embryo-transfer",
     title: "Embryo Transfer",
-    category: "introductory",
+    category: "advanced",
     description: (
       <>
         We cover how many embryos to transfer, medicated vs. unmedicated cycles,
@@ -365,12 +352,11 @@ const courses: Array<Course> = [
     experts: [],
     view: 145,
   },
-
   {
     uuid: "ae381027-9c41-4e53-969f-a2a7c48f03e5",
     slug: "low-testosterone-in-men",
     title: "Low Testosterone in Men",
-    category: "introductory",
+    category: "population_specific",
     description: (
       <>
         This course explores testosterone&apos;s role in male health, addressing
