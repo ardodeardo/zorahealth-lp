@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+// components
+import { Button } from "@/app/components/Button";
 import { Presentation, Clock4, ChevronRight } from "lucide-react";
 
 import { PATH } from "@/app/constants/config/path";
@@ -44,12 +46,7 @@ function HeroCourse() {
 
           <div className="space-y-3">
             <Link href={"/"}>
-              <button
-                type="button"
-                className="bg-[#D75555] text-base px-6 py-4 rounded-lg font-medium text-white"
-              >
-                Start Learning
-              </button>
+              <Button>Start Learning</Button>
             </Link>
             <Link
               href={"/"}

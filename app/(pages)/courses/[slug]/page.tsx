@@ -6,6 +6,8 @@ import Experts from "@/app/(pages)/courses/[slug]/experts";
 import Pricing from "@/app/(pages)/courses/[slug]/pricing";
 import Syllabus from "@/app/(pages)/courses/[slug]/syllabus";
 import Testimonials from "@/app/(pages)/courses/[slug]/testimonials";
+import Information from "@/app/(pages)/courses/[slug]/information";
+import RelatedCourse from "./related-course";
 
 function Page() {
   return (
@@ -31,6 +33,8 @@ function Page() {
           </div>
         </div>
       </section>
+      <Information></Information>
+      <RelatedCourse></RelatedCourse>
     </>
   );
 }

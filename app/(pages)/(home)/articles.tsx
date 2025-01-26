@@ -26,7 +26,10 @@ function Articles() {
           </div>
 
           <div className="w-full flex justify-end">
-            <button className="block font-semibold text-sm hover:underline underline-offset-2">
+            <button
+              type="button"
+              className="block font-semibold text-sm hover:underline underline-offset-2"
+            >
               Show 50 more
             </button>
           </div>
