@@ -12,11 +12,13 @@
 Hi there!
 This repo was specifically created for Zora Health - Frontend Engineer test.
 
-At the beginning, the test comes with a Figma consists of 2 screenshot image of the design page and several static assets, yet to ensure the frontend implementation, i **_recreate_** the design of the pages by tracing the original screenshot. please kindly take a look at the [Figma Design](https://www.figma.com/design/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1302-6&t=eIA1tCTKh8uzOSvG-1) (might need to sign in as a Figma user to see more about the layers and design implementation) :v:
+**Introduction**
+
+At the beginning, the test comes with a Figma consists of 2 screenshot image of the design page and several static assets, yet to ensure the frontend implementation, i **_recreate_** the design of the pages by tracing the original screenshot. please kindly take a look at the [Figma Design](https://www.figma.com/design/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1302-6&t=eIA1tCTKh8uzOSvG-1) (might need to sign in as a Figma user to see the details of layers and design implementation). In addition, i also create the Figma [Prototype](https://www.figma.com/proto/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1304-8&t=28PptMBvnN44IhG1-1&scaling=scale-down&content-scaling=fixed&page-id=1302%3A6&starting-point-node-id=1304%3A8). Feel free trying to click/hover the elements (course card, topics list, syllabus accordion, and the carousel) :v:
+
+**Implementation**
 
 The deployed version of this landing page can be found at [ardodeardo-zorahealth-lp.vercel.app](https://ardodeardo-zorahealth-lp.vercel.app/). When trying out the live version of this landing page, please kindly check and give it a try for some of it's features on each page:
-
-\*\*
 
 **Page A (/courses)**
 
@@ -45,6 +47,12 @@ The deployed version of this landing page can be found at [ardodeardo-zorahealth
   - grid column adjustments
   - text size adjustments
 
+**Keypoint**
+
+- Live Website: [Open](https://ardodeardo-zorahealth-lp.vercel.app/)
+- Recreated Figma Design: [Open](https://www.figma.com/design/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1302-6&t=eIA1tCTKh8uzOSvG-1)
+- Recreated Figma Prototype: [Open](https://www.figma.com/proto/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1304-8&t=28PptMBvnN44IhG1-1&scaling=scale-down&content-scaling=fixed&page-id=1302%3A6&starting-point-node-id=1304%3A8)
+
 ## Built With
 
 This is a [Next.js](https://nextjs.org/) (v15.1.6 - App Router) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -52,8 +60,8 @@ This is a [Next.js](https://nextjs.org/) (v15.1.6 - App Router) project bootstra
 This project was built with some extra dependencies, such as:
 
 - [Embla Carousel](https://www.embla-carousel.com/): A lightweight carousel library with fluid motion and great swipe precision.
-- [Lucide Icon](https://lucide.dev/guide/): An open-source icon library that provides 1000+ vector (svg).
-- [cva](https://cva.style/docs), [clsx](https://www.npmjs.com/package/clsx), [tailwind-merge](https://www.npmjs.com/package/clsx): Tiny CSS utilities to support and speed up the development
+- [Lucide Icon](https://lucide.dev/icons/): An open-source icon library that provides 1000+ vector (svg).
+- [cva](https://cva.style/docs), [clsx](https://www.npmjs.com/package/clsx), [tailwind-merge](https://www.npmjs.com/package/clsx): Tiny sized CSS utilities to support and speed up the development.
 
 ## Quick tour of the structure
 
@@ -95,7 +103,7 @@ zorahealth-lp
 
 **System Requirements**
 
-- [Node.js 18.18](https://nodejs.org/) or later.
+- [Node.js 18.18](https://nodejs.org/) or later
 - [npm 10.8.\*](https://www.npmjs.com/) or later
 
 **Installation**
