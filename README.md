@@ -14,7 +14,7 @@ This repo was specifically created for Zora Health - Frontend Engineer test.
 
 **Introduction**
 
-At the beginning, the test comes with a Figma consists of 2 screenshot images of the design page and several static assets, yet to ensure the frontend implementation, i **_recreate_** the design of the pages by tracing the original screenshot. please kindly take a look at the [Figma Design](https://www.figma.com/design/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1302-6&t=eIA1tCTKh8uzOSvG-1) (might need to sign in as a Figma user to see the details of layers and design implementation). In addition, i also create the Figma [Prototype](https://www.figma.com/proto/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1304-8&t=28PptMBvnN44IhG1-1&scaling=scale-down&content-scaling=fixed&page-id=1302%3A6&starting-point-node-id=1304%3A8). Feel free trying to click/hover the elements (course card, topics list, syllabus accordion, and the carousel) :v:
+At the beginning, the test comes with a Figma consists of 2 screenshot images of the design page and several static assets, yet to ensure the frontend implementation, I **_recreate_** the design of the pages by tracing the original screenshot. please kindly take a look at the [Figma Design](https://www.figma.com/design/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1302-6&t=eIA1tCTKh8uzOSvG-1) (might need to sign in as a Figma user to see the details of layers and design implementation). In addition, I also create the Figma [Prototype](https://www.figma.com/proto/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1304-8&t=28PptMBvnN44IhG1-1&scaling=scale-down&content-scaling=fixed&page-id=1302%3A6&starting-point-node-id=1304%3A8). Feel free trying to click/hover the elements (course card, topics list, syllabus accordion, and the carousel) :v:
 
 **Implementation**
 
@@ -42,7 +42,7 @@ The deployed version of this landing page can be found at [ardodeardo-zorahealth
 
 **Extras**
 
-- The design was only provide the desktop viewport, yet i try to adapted the implementation with the most basic responsive pattern of frontend implementation such as:
+- The design was only provide the desktop viewport, yet I try to adapted the implementation with the most basic responsive pattern of frontend implementation such as:
   - horizontal stacking flex element
   - grid column adjustments
   - text size adjustments
