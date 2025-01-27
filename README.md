@@ -43,9 +43,9 @@ The deployed version of this landing page can be found at [ardodeardo-zorahealth
 **Extras**
 
 - The design was only provide the desktop viewport, yet I try to adapted the implementation with the most basic responsive pattern of frontend implementation such as:
-  - horizontal stacking flex element
-  - grid column adjustments
-  - text size adjustments
+  - horizontal to vertical stacking flex element
+  - grid column number adjustment
+  - text size adjustment
 
 **Keypoint**
 
