@@ -30,7 +30,7 @@ The deployed version of this landing page can be found at [ardodeardo-zorahealth
   - Show more button will trigger more article
 - Explore Topics: Each list will be redirected to Topics page (/topics/[slug] - _an additional placeholder page only_)
 
-**Page B (/courses[slug])**
+**Page B (/courses/[slug])**
 
 - Hero: _dynamic_ hero title based on the selected slug (selected card on Page A)
 - Experts: Show more button will trigger more expert
@@ -42,7 +42,7 @@ The deployed version of this landing page can be found at [ardodeardo-zorahealth
 
 **Extras**
 
-- The design was only provide the desktop viewport, yet I try to adapted the implementation with the most basic responsive pattern of frontend implementation such as:
+- The design was only provide the desktop viewport, yet I try to adapt the implementation with the most basic responsive pattern of frontend implementation such as:
   - horizontal to vertical stacking flex element
   - grid column number adjustment
   - text size adjustment

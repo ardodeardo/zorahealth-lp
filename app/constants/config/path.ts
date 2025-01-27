@@ -9,13 +9,13 @@ interface Path {
 
 const domain: { [key: string]: string } = {
   local: "http://localhost:3030",
-  vercel: "https://zora-landingpage.vercel.app",
+  vercel: "https://ardodeardo-zorahealth-lp.vercel.app/",
   production: process.env.NEXT_PUBLIC_PRODUCTION_DOMAIN || "",
 };
 
 const static_domain = {
   local: "/",
-  pub: "", // cdn url
+  pub: "/", // cdn url
   production: process.env.NEXT_PUBLIC_PRODUCTION_STATIC_DOMAIN || "",
 };
 
