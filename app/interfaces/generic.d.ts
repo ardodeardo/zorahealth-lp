@@ -1,6 +1,5 @@
 interface BaseProps {
   uuid: string;
-  basepath: string;
   slug: string;
   title: string;
 }

@@ -8,7 +8,7 @@ function FooterBacklink() {
   }> = [
     {
       title: "Courses",
-      slug: "/",
+      slug: "courses",
     },
     {
       title: "Find a Doctor",
@@ -53,7 +53,7 @@ function FooterBacklink() {
         return (
           <li key={slug}>
             <Link
-              href={slug}
+              href={"/courses"} // use the same path as dummy
               className="text-sm font-semibold underline underline-offset-2 text-white"
             >
               {title}

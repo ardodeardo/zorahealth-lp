@@ -1,17 +1,5 @@
-import { HeroBase } from "@/app/components/Hero";
-import Lessons from "../components/Section/lessons";
-import Courses from "../components/Section/courses";
-import Articles from "../components/Section/articles";
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <>
-      <HeroBase></HeroBase>
-      <div className="space-y-14 pb-32">
-        <Courses></Courses>
-        <Lessons></Lessons>
-        <Articles></Articles>
-      </div>
-    </>
-  );
+export default async function Page() {
+  return redirect(`/courses`);
 }

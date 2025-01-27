@@ -11,7 +11,7 @@ function HeaderSearch() {
   };
 
   return (
-    <button onClick={() => handleSearch()}>
+    <button aria-label="search" onClick={() => handleSearch()}>
       <Search className="w-6 h-6"></Search>
     </button>
   );

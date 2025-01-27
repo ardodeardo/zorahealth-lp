@@ -10,7 +10,7 @@ function HeaderBurger() {
   };
 
   return (
-    <button onClick={() => handleSidebar()}>
+    <button aria-label="sidebar" onClick={() => handleSidebar()}>
       <span className="grid gap-y-2">
         <span className="h-[2px] bg-black w-6"></span>
         <span className="h-[2px] bg-black w-6"></span>
