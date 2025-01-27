@@ -52,7 +52,7 @@ function RelatedCourse(props: Props) {
         </div>
 
         <div className="w-min mx-auto mt-12">
-          <Link href={"/"}>
+          <Link href={"/courses"}>
             <Button type="button">Explore All Courses</Button>
           </Link>
         </div>

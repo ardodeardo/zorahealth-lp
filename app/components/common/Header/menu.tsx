@@ -8,7 +8,7 @@ function HeaderMenu() {
   }> = [
     {
       title: "Courses",
-      slug: "/",
+      slug: "courses",
     },
     {
       title: "Find a Doctor",
@@ -33,7 +33,7 @@ function HeaderMenu() {
           return (
             <li key={slug}>
               <Link
-                href={"/"} // use the same path as dummy
+                href={"/courses"} // use the same path as dummy
                 className="text-sm font-semibold hover:underline underline-offset-2"
               >
                 {title}

@@ -54,11 +54,11 @@ function HeroCourse(props: Props) {
           </p>
 
           <div className="space-y-3">
-            <Link href={"/"}>
+            <Link href={"/courses"}>
               <Button>Start Learning</Button>
             </Link>
             <Link
-              href={"/"}
+              href={"/courses"}
               className="font-medium text-xs flex gap-x-1 items-center hover:underline underline-offset-2"
             >
               Buy This Course <ChevronRight className="w-4 h-4"></ChevronRight>
