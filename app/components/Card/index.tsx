@@ -1,5 +1,5 @@
 import CardCourse from "./course";
 import CardGeneric from "./generic";
-import CardMember from "./member";
+import CardExpert from "./expert";
 
-export { CardCourse, CardGeneric, CardMember };
+export { CardCourse, CardGeneric, CardExpert };

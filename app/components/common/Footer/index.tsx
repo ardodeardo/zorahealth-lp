@@ -1,7 +1,7 @@
 import React from "react";
-
 import Image from "next/image";
 
+// child components
 import FooterBacklink from "./backlink";
 
 import { PATH } from "@/app/constants/config/path";
