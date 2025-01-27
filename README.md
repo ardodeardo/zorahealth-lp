@@ -14,7 +14,7 @@ This repo was specifically created for Zora Health - Frontend Engineer test.
 
 **Introduction**
 
-At the beginning, the test comes with a Figma consists of 2 screenshot image of the design page and several static assets, yet to ensure the frontend implementation, i **_recreate_** the design of the pages by tracing the original screenshot. please kindly take a look at the [Figma Design](https://www.figma.com/design/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1302-6&t=eIA1tCTKh8uzOSvG-1) (might need to sign in as a Figma user to see the details of layers and design implementation). In addition, i also create the Figma [Prototype](https://www.figma.com/proto/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1304-8&t=28PptMBvnN44IhG1-1&scaling=scale-down&content-scaling=fixed&page-id=1302%3A6&starting-point-node-id=1304%3A8). Feel free trying to click/hover the elements (course card, topics list, syllabus accordion, and the carousel) :v:
+At the beginning, the test comes with a Figma consists of 2 screenshot images of the design page and several static assets, yet to ensure the frontend implementation, i **_recreate_** the design of the pages by tracing the original screenshot. please kindly take a look at the [Figma Design](https://www.figma.com/design/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1302-6&t=eIA1tCTKh8uzOSvG-1) (might need to sign in as a Figma user to see the details of layers and design implementation). In addition, i also create the Figma [Prototype](https://www.figma.com/proto/BwFcOEQSBZjsEkfNkTS37N/ardodeardo---Zora-Health?node-id=1304-8&t=28PptMBvnN44IhG1-1&scaling=scale-down&content-scaling=fixed&page-id=1302%3A6&starting-point-node-id=1304%3A8). Feel free trying to click/hover the elements (course card, topics list, syllabus accordion, and the carousel) :v:
 
 **Implementation**
 
@@ -27,13 +27,13 @@ The deployed version of this landing page can be found at [ardodeardo-zorahealth
 - Popular Lessons: All cards will be redirected to Lessons page (/lessons/[slug] - _an additional placeholder page only_)
 - Quick Reads
   - All cards will be redirected to Articles page (/articles/[slug] - _an additional placeholder page only_)
-  - Show more button will trigger more cards
+  - Show more button will trigger more article
 - Explore Topics: Each list will be redirected to Topics page (/topics/[slug] - _an additional placeholder page only_)
 
 **Page B (/courses[slug])**
 
 - Hero: _dynamic_ hero title based on the selected slug (selected card on Page A)
-- Experts: Show more button will trigger more cards
+- Experts: Show more button will trigger more expert
 - Course Syllabus: collapse/expand accordion component
 - Carousel: testimonial carousel content
 - Other Courses:
@@ -42,7 +42,7 @@ The deployed version of this landing page can be found at [ardodeardo-zorahealth
 
 **Extras**
 
-- The design was only provide the desktop viewport, yet i try to adapt the implementation with the most basic responsive pattern of frontend implementation such as:
+- The design was only provide the desktop viewport, yet i try to adapted the implementation with the most basic responsive pattern of frontend implementation such as:
   - horizontal stacking flex element
   - grid column adjustments
   - text size adjustments
@@ -61,7 +61,7 @@ This project was built with some extra dependencies, such as:
 
 - [Embla Carousel](https://www.embla-carousel.com/): A lightweight carousel library with fluid motion and great swipe precision.
 - [Lucide Icon](https://lucide.dev/icons/): An open-source icon library that provides 1000+ vector (svg).
-- [cva](https://cva.style/docs), [clsx](https://www.npmjs.com/package/clsx), [tailwind-merge](https://www.npmjs.com/package/clsx): Tiny sized CSS utilities to support and speed up the development.
+- [cva](https://cva.style/docs), [clsx](https://www.npmjs.com/package/clsx), [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): Tiny sized CSS utilities to support and speed up the development.
 
 ## Quick tour of the structure
 
@@ -117,7 +117,7 @@ zorahealth-lp
     cd zorahealth-lp
     ```
     ```
-    npm run install
+    npm install
     ```
 
 **First Run**
